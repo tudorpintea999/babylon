@@ -38,7 +38,7 @@ module based on their depth according to the BTC Light Client module.
 ### [Checkpointing](../x/checkpointing)
 
 The checkpointing module is responsible for creating Babylon checkpoints
-to be submitted to Bitcoin and maintaining their confirmation status.
+to be submitted to Bitcoin and maintain their confirmation status.
 It collects the validator's
 [BLS signatures](https://en.wikipedia.org/wiki/BLS_digital_signature)
 for each block to be checkpointed and aggregates them
