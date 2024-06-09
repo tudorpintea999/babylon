@@ -3,9 +3,9 @@
 ## Introduction
 
 Babylon's BTC staking protocol turns Bitcoin into a staking asset with the aim
-to enhance the economic security of the Babylon chain. Bitcoin holders can stake
+of enhancing the economic security of the Babylon chain. Bitcoin holders can stake
 their Bitcoin by locking them using a special transaction on the Bitcoin chain.
-The locked Bitcoin contribute to Babylon chain's economic security and generate
+The locked Bitcoin contributes to Babylon chain's economic security and generates
 yields for the Bitcoin stakers.
 The protocol has the following important properties:
 
@@ -39,7 +39,7 @@ in staking scripts. Note that a staking transaction can be funded from
 arbitrary UTXO, including those owned by multsig/MPC/threshold accounts.
 Thus, `<StakerPk>` is not necessarily the address of the source of the fund.
 Rather, it is the controller and beneficiary of the stake after its creation.
-- **Finality Provider**: A Finality Provider is the an entity that votes
+- **Finality Provider**: A Finality Provider is the entity that votes
 in the finality round to provide security assurance to the PoS chain.
 
 The Bitcoin staker can choose a specific Finality Provider to delegate
